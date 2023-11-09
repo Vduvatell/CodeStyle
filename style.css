@@ -1,0 +1,58 @@
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #222222;
+  color: #c7c6c6;
+  font-size: 20px;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.section, .last-p__article, .links {
+  padding-bottom: 30px;
+}
+
+.section-item, .last-p, figcaption {
+  padding-bottom: 10px;
+}
+
+img {
+  max-width: 800px;
+}
+
+figure {
+  margin: 0;
+}
+
+.code-style {
+  text-align: center;
+  text-decoration: none;
+}
+
+.links {
+  list-style-type: none;
+  background-color: #363636;
+  padding: 15px 0 15px;
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+
+.links-list a {
+  text-decoration: none;
+  color: #c7c6c6;
+}
