@@ -16,6 +16,7 @@ h1 {
 }
 
 h2 {
+  padding-bottom: 50px;
   font-size: 36px;
 }
 
@@ -23,30 +24,29 @@ h3 {
   font-size: 30px;
 }
 
-cite {
-  font-style: normal;
-  padding: 0;
-}
-
-.section, .last-p__article, .links {
-  padding-bottom: 30px;
-}
-
-.section-item, .last-p, figcaption {
-  padding-bottom: 10px;
-}
-
-img {
-  max-width: 800px;
+ul {
+  list-style-type: none;
 }
 
 figure {
-  margin: 0;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+cite {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  margin: 0 auto;
 }
 
 .code-style {
   text-align: center;
-  text-decoration: none;
 }
 
 .links {
@@ -54,10 +54,17 @@ figure {
   background-color: #363636;
   padding: 15px 0 15px;
   border-radius: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .links-list a {
-  text-decoration: none;
   color: #c7c6c6;
+}
+
+.image {
+  max-width: 400px;
+}
+
+.decor p{
+  margin-bottom: 30px;
 }

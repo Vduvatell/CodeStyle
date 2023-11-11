@@ -23,30 +23,25 @@ h3 {
   font-size: 30px;
 }
 
+ul {
+  list-style-type: none;
+}
+
+blockquote {
+  padding: 40px 0;
+  text-align: center;
+}
+
 cite {
   font-style: normal;
-  padding: 0;
 }
 
-.section, .last-p__article, .links {
-  padding-bottom: 30px;
-}
-
-.section-item, .last-p, figcaption {
-  padding-bottom: 10px;
-}
-
-img {
-  max-width: 800px;
-}
-
-figure {
-  margin: 0;
+a {
+  text-decoration: none;
 }
 
 .code-style {
   text-align: center;
-  text-decoration: none;
 }
 
 .links {
@@ -58,6 +53,10 @@ figure {
 }
 
 .links-list a {
-  text-decoration: none;
   color: #c7c6c6;
+}
+
+.image {
+  max-width: 500px;
+  padding-top: 10px;
 }
